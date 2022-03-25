@@ -18,18 +18,18 @@
 ## Useful git command
 - Checkout changes: `git status`
 - Add specified files to the upcomming commit: `git add <files>`
-- git commit -a (all) -m (message) // Commit the previously added files
-- git push // Push the commits from local branch to the remote branch
-- git push -f origin <branchname>
-- git branch // To see the locally used branches
-- git branch -D <branchname> // Delete the given branch
-- git checkout <branchname> // Checkout the given branch
-- git checkout -b <newbranchname> // Create a new branch with the given name and checkout this newly created branch
-- git merge <branchname> // Merge the current branch into the given one
-- git pull // Pull the modifications from the remote branch to the current branch
-- git rebase <branchname> // Updates the base of the current branch with the last version of the given one
-- git revert <commitId> // Revert the given commit
-- git reset --hard // Reset current branch to its base
-- git checkout -B master origin/master //Recreate master branch
-- git cherry -v <branchname> // Displays the commit difference between the current branch and the given branch
-- git reflog // Displays all the operations that have been done
+- Commit the previously added files: `git commit -a <all> -m <message>`
+- Push commits to remote branch: `git push`
+- Force push `git push -f origin <branchname>`
+- To see the local branches: `git branch`
+- Delete the given branch: `git branch -D <branchname>`
+- Checkout the given branch: `git checkout <branchname>`
+- Create a new branch with the given name: `git checkout -b <newbranchname>`
+- Merge the current branch into the specified one: `git merge <branchname>`
+- Pull the modifications from the remote branch: `git pull`
+- Update the base of the current branch with the last version of the specified one: `git rebase <branchname>`
+- Revert the given commit: `git revert <commitId>`
+- Reset current branch to its base: `git reset --hard`
+- Recreate master branch: `git checkout -B master origin/master`
+- Display the commit difference between the current branch and the specified one: `git cherry -v <branchname>`
+- Show all the past operations: `git reflog`
