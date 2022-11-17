@@ -25,7 +25,7 @@
 - Delete the given branch: `git branch -D <branchname>`
 - Checkout the given branch: `git checkout <branchname>`
 - Create a new branch with the given name: `git checkout -b <newbranchname>`
-- Merge the current branch into the specified one: `git merge <branchname>`
+- Merge the specified branch into the current one: `git merge <branchname>`
 - Pull the modifications from the remote branch: `git pull`
 - Update the base of the current branch with the last version of the specified one: `git rebase <branchname>`
 - Revert the given commit: `git revert <commitId>`
